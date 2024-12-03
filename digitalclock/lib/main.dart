@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowMaterialGrid: false,
       theme: Theme.of(context).copyWith(
         textTheme: GoogleFonts.pressStart2pTextTheme(),
-        scaffoldBackgroundColor: Colors.black12,
+        scaffoldBackgroundColor: Colors.black,
       ),
       debugShowCheckedModeBanner: false,
       home: const ClockScreen(),
